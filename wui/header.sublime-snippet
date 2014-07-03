@@ -1,0 +1,41 @@
+<snippet>
+	<content><![CDATA[
+<!-- header{ -->
+<div class="header">
+
+	<!-- container{ -->
+	<div class="container">
+
+		<!-- navbar{ -->
+		<div class="navbar">
+
+			<div class="navbar-header">${1:WUI}</div>
+			<div class="navbar-body">
+
+				<div class="nav">
+					<a class="nav-item" href="">${2}导航</a>
+					<a class="nav-item" href="">导航</a>
+					<span class="nav-item">文本</span>
+				</div>
+
+				<div class="nav float-right">
+					<a class="nav-item" href="">注册</a>
+					<a class="nav-item" href="">登录</a>
+				</div>
+
+			</div>
+
+		</div>
+		<!-- }navbar -->
+
+	</div>
+	<!-- }container -->
+
+</div>
+<!-- }header -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>header</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

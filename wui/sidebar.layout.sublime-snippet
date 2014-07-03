@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+<!-- layout{ -->
+<div class="layout">
+
+	<!-- sidebar{ -->
+	<span class="sidebar-toggle"></span>
+	<div class="sidebar">
+
+		<h1 class="sidebar-header">WUI</h1>
+
+		<!-- menu{ -->
+		<div class="menu">
+			<a class="menu-item" href="#">menu</a>
+			<a class="menu-item" href="#">menu</a>
+			<p class="menu-divider"></p>
+			<a class="menu-item" href="#">menu</a>
+		</div>
+		<!-- }menu -->
+
+	</div>
+	<!-- }sidebar -->
+
+	${0}
+
+</div>
+<!-- }layout -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sidebar.layout</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

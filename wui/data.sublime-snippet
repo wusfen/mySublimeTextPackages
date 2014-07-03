@@ -1,25 +1,50 @@
 <snippet>
 	<content><![CDATA[
+<!-- data{ -->
 <div class="data">
 	<table>
-		<tr>
-			<th>一</th>
-			<th>二</th>
-		</tr>
+		<col style="width:1em"></col>
 
 		<tr>
+			<th><input type="checkbox" name="" /></th>
+			<th>#</th>
+			<th>title</th>
+			<th>content</th>
+			<th></th>
+		</tr>
+		<tr>
+			<td><input type="checkbox" name="" /></td>
+			<td>1</td>
+			<td>标题</td>
+			<td>内容</td>
 			<td>
-				1
+				<a class="button danger small">删除</a>
 			</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" name="" /></td>
+			<td>2</td>
+			<td>标题</td>
+			<td>内容</td>
 			<td>
-				2
+				<a class="button danger small">删除</a>
+			</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" name="" /></td>
+			<td>3</td>
+			<td>标题</td>
+			<td>内容</td>
+			<td>
+				<a class="button danger small">删除</a>
 			</td>
 		</tr>
 	</table>
 </div>
+<!-- }data -->
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>data</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<scope>text.html</scope>
 </snippet>

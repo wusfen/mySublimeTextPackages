@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+<!-- list{ -->
+<div class="list">
+	<a class="list-item" href="">
+		<span class="badge float-right"></span>
+		badge float-right
+	</a>
+	<a class="list-item" href="">
+		<span class="badge float-right">25</span>
+		2
+	</a>
+	<a class="list-item" href="">
+		<span class="badge float-right">1</span>
+		3
+	</a>
+</div>
+<!-- }list -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>list</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

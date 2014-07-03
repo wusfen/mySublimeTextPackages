@@ -1,0 +1,31 @@
+[
+	
+	{ "keys": ["ctrl+,"], "command": "auto_complete" },
+	{ "keys": ["ctrl+,"], "command": "replace_completion_with_auto_complete", "context":
+		[
+			{ "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+			{ "key": "auto_complete_visible", "operator": "equal", "operand": false },
+			{ "key": "setting.tab_completion", "operator": "equal", "operand": true }
+		]
+	},
+
+	//方向
+	{ "keys": ["alt+i"], "command": "move", "args": {"by": "lines", "forward": false} },
+	{ "keys": ["alt+j"], "command": "move", "args": {"by": "characters", "forward": false} },
+	{ "keys": ["alt+k"], "command": "move", "args": {"by": "lines", "forward": true} },
+	{ "keys": ["alt+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+	{ "keys": ["ctrl+alt+j"], "command": "move", "args": {"by": "words", "forward": false} },
+	{ "keys": ["ctrl+alt+l"], "command": "move", "args": {"by": "word_ends", "forward": true} },
+
+	//home end
+	{ "keys": ["alt+u"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+	{ "keys": ["alt+o"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+
+	//代码行结束加分号
+	{ "keys": ["alt+;"], "command": "run_macro_file", "args": {"file": "res://Packages/User/wu/mySublimeTextPackages/macro/code_line_end.sublime-macro"} },
+	{ "keys": ["alt+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/User/wu/mySublimeTextPackages/macro/code_line_end_enter.sublime-macro"} },
+
+	//代码行结束加逗号
+	{ "keys": ["alt+,"], "command": "run_macro_file", "args": {"file": "res://Packages/User/wu/mySublimeTextPackages/macro/code_line_end_douhao.sublime-macro"} },
+
+]

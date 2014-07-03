@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<!-- tabs{ -->
+<div class="tabs">
+	<p class="tabs-header">标题</p>
+	<span class="tab" href="">首页</span>
+	<span class="tab active" href="">案例</span>
+	<span class="tab" href="">联系</span>
+</div>
+<div class="tabs-body">
+	<div class="tab-content">1</div>
+	<div class="tab-content">2</div>
+	<div class="tab-content">3</div>
+</div>
+<!-- }tabs -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tabs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

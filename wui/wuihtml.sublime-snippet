@@ -3,29 +3,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>${1:wui}</title>
+	<title></title>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0${2:, user-scalable=no}">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="stylesheet" type="text/css" href="${3:./}wui.css">
-	<link rel="stylesheet" type="text/css" href="${3:./}wui.layout.s.css">
+	<link rel="stylesheet" type="text/css" href="${1:../}wui.css">
+	<link rel="stylesheet" type="text/css" href="${1:../}wui.layout/sidebar.layout.css">
 
-	<script type="text/javascript" src="${3:./}jquery.js"></script>
-	<script type="text/javascript" src="${3:./}wui.js"></script>
-	<script type="text/javascript" src="${3:./}wui.dialog.js"></script>
-
+	<script type="text/javascript" src="${1:../}jquery.js"></script>
+	<script type="text/javascript" src="${1:../}wui.js"></script>
+	<script type="text/javascript" src="${1:../}wui.tools/wui.dialog.js"></script>
 </head>
 <body>
 
-	<div class="loading"><i class="loading-icon"></i></div>
-
-	${0}
+${0}
 
 </body>
 </html>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>wuihtml</tabTrigger>
+	<tabTrigger>wui</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<!-- <scope>text.html</scope> -->
 </snippet>

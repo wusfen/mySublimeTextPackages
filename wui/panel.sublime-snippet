@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<!-- panel{ -->
+<div class="panel">
+	<div class="panel-header">${1:标题}</div>
+	<div class="panel-body">
+		${0:面板}
+	</div>
+</div>
+<!-- }panel -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>panel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

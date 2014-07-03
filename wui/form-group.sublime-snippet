@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<!-- form-group{ -->
+<div class="form-group">
+	<label class="label">${1:label}</label>
+	${2:<input class="input" type="text" name="" placeholder="${3:请输入...}" />}
+</div>
+<!-- }form-group -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>form-group</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

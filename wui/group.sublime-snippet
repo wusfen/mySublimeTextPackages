@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<!-- group{ -->
+<div class="group${1: horizontal}">
+	<button class="group-item button">按钮</button>
+	<input class="group-item input" type="text" name="" placeholder="请输入..." />
+	<label class="group-item">
+		<input type="checkbox" name="" />
+		选择
+	</label>
+	<label class="group-item button">
+		<input type="radio" name="" />
+		单选
+	</label>
+</div>
+<!-- }group -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>group</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

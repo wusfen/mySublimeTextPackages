@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<!-- dropdown{ -->
+<div class="dropdown">
+	<span class="dropdown-toggle button">下拉 <i class="icon i-down"></i></span>
+	<div class="dropdown-body">
+		<div class="menu">
+			<a class="menu-item" href="#">菜单</a>
+			<p class="menu-divider"></p>
+			<a class="menu-item" href="#">菜单</a>
+			<a class="menu-item" href="#">菜单</a>
+		</div>
+	</div>
+</div>
+<!-- }dropdown -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>badge</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

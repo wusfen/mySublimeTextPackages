@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<!-- pagination{ -->
+<div class="pagination">
+	<span class="disable">&larr;</span>
+	<a href="">1</a>
+	<span>...</span>
+	<a href="">4</a>
+	<a href="">5</a>
+	<a class="active" href="">6</a>
+	<a href="">7</a>
+	<a href="">8</a>
+	<span>...</span>
+	<a href="">99</a>
+	<a href="">&rarr;</a>
+</div>
+<!-- }pagination -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pagination</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

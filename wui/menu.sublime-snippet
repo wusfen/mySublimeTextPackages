@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<!-- menu{ -->
+<div class="menu">
+	<a class="menu-item" href="#">menu</a>
+	<a class="menu-item" href="#">menu</a>
+	<p class="menu-divider"></p>
+	<a class="menu-item" href="#">menu</a>
+</div>
+<!-- }menu -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>menu</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

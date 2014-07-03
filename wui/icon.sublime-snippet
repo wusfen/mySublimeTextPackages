@@ -1,11 +1,9 @@
 <snippet>
 	<content><![CDATA[
-<!-- ${1:header}{ -->
-${0}
-<!-- }${1} -->
+<i class="icon i-${1:menu}"></i>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>com</tabTrigger>
+	<tabTrigger>icon</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<scope>text.html</scope>
 </snippet>
